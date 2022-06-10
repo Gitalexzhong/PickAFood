@@ -1,5 +1,5 @@
 # PickAFood
- A full stack voting system to choose where to eat 
+A full stack voting system to choose where to eat 
 
 
 ## Setup 
@@ -24,10 +24,10 @@ The front end will be built on top of the react framework, it will be created as
 ## Voting screen 
 - [ ] Choose a selection of options 
   - [ ] Restaurants 
-  - [ ] Food style 
+  - [ ] Cuisine Preference
   - [ ] Distance  
   - [ ] Rating 
-  - [ ] Ect
+  - [ ] Etc.
 
 ## Results screen 
 - [ ] Show a selection of restaurants  
@@ -45,10 +45,10 @@ The backend will be based on python and the google place's API. It will be able 
 ## Voting screen 
 - [ ] Provide from a database of options  
   - [ ] Restaurants 
-  - [ ] Food style 
+  - [ ] Cuisine Preference
   - [ ] Distance  
   - [ ] Rating 
-  - [ ] Ect
+  - [ ] Etc
 - [ ] Generate a query based on best result to send to google place API 
 - [ ] Store result in a database
 ## Results screen 
