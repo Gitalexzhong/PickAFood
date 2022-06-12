@@ -12,4 +12,9 @@ def join_session():
 def start_session():
     pass
 
+def session_exists():
+    pass
+
+def session_stats():
+    pass
 
