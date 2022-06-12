@@ -6,7 +6,9 @@ A full stack voting system to choose where to eat
 To set up the code for your own usage you will need to replace the default API key used in the "api.key" file. Replace the file with the following code. 
 
 ```
-google-api-key: <api key value>
+{
+    "Google-maps-API-key":" <Api Key> "
+}
 ```
 
 A link to registering for the google maps api can be found here:
