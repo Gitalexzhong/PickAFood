@@ -27,7 +27,18 @@ print(res['Google-maps-API-key'])
 
 import requests
 
-url = f"https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian&inputtype=textquery&locationbias=circle%3A2000%4047.6918452%2C-122.2226413&fields=formatted_address%2Cname%2Crating%2Copening_hours%2Cgeometry&key={str(res['Google-maps-API-key'])}"
+# url = f"https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian&inputtype=textquery&locationbias=circle%3A2000%4047.6918452%2C-122.2226413&fields=formatted_address%2Cname%2Crating%2Copening_hours%2Cgeometry&key={str(res['Google-maps-API-key'])}"
+
+# payload={}
+# headers = {}
+
+# response = requests.request("GET", url, headers=headers, data=payload)
+
+# print(response.text)
+
+# import requests
+
+url = f"https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian&inputtype=textquery&fields=formatted_address%2Cname%2Crating%2Copening_hours%2Cgeometry&key={str(res['Google-maps-API-key'])}"
 
 payload={}
 headers = {}
