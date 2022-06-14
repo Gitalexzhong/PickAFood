@@ -53,6 +53,7 @@ The backend will be based on python and the google place's API. It will be able 
   - [ ] Etc
 - [ ] Generate a query based on best result to send to google place API 
 - [ ] Store result in a database
+
 ## Results screen 
 - [ ] Show a single restaurant
 - [ ] Accept option to get next result
