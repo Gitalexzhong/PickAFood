@@ -5,3 +5,4 @@ def get_api_key() -> str:
 
 def generate_places(data: dict) -> dict:
     pass
+
