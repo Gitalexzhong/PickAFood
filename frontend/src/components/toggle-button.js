@@ -1,16 +1,24 @@
-import React, { Component } from 'react'
-import { Button } from 'react-native'
+// import React, { Component } from 'react'
+// import { Button } from 'react-native'
 
-const Button = styled.button`
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  padding: 10px 60px;
-  border-radius: 5px;
-  margin: 10px 0px;
-  cursor: pointer;
-`;
-// Usage
-<Button onClick={sayHello}>
-  Disabled Button
-</Button>
+// const myFirstElement = 
+
+// import logo from './logo.svg';
+// import './App.css';
+
+// import React from 'react';
+
+
+// import React, { MyButton }  from 'react';
+
+function myFirstElement() {
+  // React.createElement(CustomButton, { color: 'red' }, 'Click me !');
+
+  return (
+    <MyButton color="blue" shadowSize={2}>
+      Click Me
+    </MyButton>
+  );
+}
+
+export default myFirstElement;
