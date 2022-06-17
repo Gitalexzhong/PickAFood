@@ -1,28 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import myFirstElement from './components/toggle-button';
-
-// const Button = styled.button`
-//   background-color: black;
-//   color: white;
-//   font-size: 20px;
-//   padding: 10px 60px;
-//   border-radius: 5px;
-//   margin: 10px 0px;
-//   cursor: pointer;
-// `;
-// // Usage
-
-// const myFirstElement = <h1>Hello React!</h1>
+import Yes from './components/toggle-button'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
-  myFirstElement
-
+  <React.StrictMode>
+    <App />
+    <Yes/>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

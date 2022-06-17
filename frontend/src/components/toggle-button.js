@@ -1,24 +1,27 @@
-// import React, { Component } from 'react'
-// import { Button } from 'react-native'
+import logo from '../logo.svg';
+import '../App.css';
+// import React, { Component }  from 'react';
+import React from 'react'
 
-// const myFirstElement = 
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// import React from 'react';
-
-
-// import React, { MyButton }  from 'react';
-
-function myFirstElement() {
-  // React.createElement(CustomButton, { color: 'red' }, 'Click me !');
-
+function Yes() {
   return (
-    <MyButton color="blue" shadowSize={2}>
-      Click Me
-    </MyButton>
+    <div className="App">
+      <header>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
-export default myFirstElement;
+export default Yes;
