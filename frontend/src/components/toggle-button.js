@@ -1,13 +1,27 @@
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import '../App.css';
 // import React, { Component }  from 'react';
 import React from 'react'
+import styled from "styled-components";
 
 function sayHello() {
   alert('You clicked me!');
 }
 
+const Button = styled.button`
+background-color: black;
+color: white;
+font-size: 20px;
+padding: 10px 60px;
+border-radius: 5px;
+margin: 10px 0px;
+cursor: pointer;
+`;
+
+
 function Yes() {
+
+
   // return (
   //   <div className="App">
   //     <header>
@@ -42,7 +56,9 @@ function Yes() {
           Learn React
         </a>
       </header> */}
-      <button onClick={sayHello}>item</button>;
+      <Button onClick={sayHello}>
+        item
+      </Button>
     </div>
   )
 }
