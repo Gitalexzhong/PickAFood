@@ -42,7 +42,7 @@ function Yes() {
           Learn React
         </a>
       </header> */}
-      <button onClick={sayHello}>Default</button>;
+      <button onClick={sayHello}>item</button>;
     </div>
   )
 }
