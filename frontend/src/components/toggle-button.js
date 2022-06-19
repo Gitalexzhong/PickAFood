@@ -13,7 +13,7 @@ background-color: black;
 color: white;
 font-size: 20px;
 padding: 10px 60px;
-border-radius: 5px;
+border-radius: 10px;
 margin: 10px 0px;
 cursor: pointer;
 `;
