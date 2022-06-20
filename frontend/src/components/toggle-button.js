@@ -5,7 +5,7 @@ import React from 'react'
 import styled from "styled-components";
 
 function sayHello() {
-  alert('You clicked me!');
+  alert('send message!');
 }
 
 const Button = styled.button`
