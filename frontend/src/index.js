@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Yes from './components/toggle-button'
+// import ToggleSwitch from './components/toggle-button'
+import ToggleSwitch from "./components/ToggleSwitch";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Yes/>
+    <ToggleSwitch label="Notifications" />
   </React.StrictMode>
 );
 
