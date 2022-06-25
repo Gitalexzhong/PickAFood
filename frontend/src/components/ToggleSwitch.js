@@ -41,7 +41,9 @@ const ToggleSwitch = ({ label }) => {
       aria-label="text alignment"
     >
       <ToggleButton value="left" aria-label="left aligned">
-        <FormatAlignLeftIcon />
+      <input type="checkbox" className="checkbox"
+          name={"label"} id={"label"} />
+      {/* <FormatAlignLeftIcon /> */}
       </ToggleButton>
       <ToggleButton value="center" aria-label="centered">
         <FormatAlignCenterIcon />
