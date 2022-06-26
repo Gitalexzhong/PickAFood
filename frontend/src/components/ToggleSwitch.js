@@ -51,9 +51,14 @@ const ToggleSwitch = ({ label }) => {
       <ToggleButton value="right" aria-label="right aligned">
         <FormatAlignRightIcon />
       </ToggleButton>
-      <ToggleButton value="justify" aria-label="justified" disabled>
-        <FormatAlignJustifyIcon />
+      <ToggleButton value="right" aria-label="right aligned">
+        <FormatAlignRightIcon />
       </ToggleButton>
+
+      <ToggleButton value="right" aria-label="right aligned">
+        <FormatAlignRightIcon />
+      </ToggleButton>
+      
     </ToggleButtonGroup>
 
   );
