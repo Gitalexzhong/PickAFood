@@ -1,30 +1,34 @@
-// import React, { useState } from 'react';
+
 // import ReactDOM from 'react-dom';
 
 import * as React from 'react';
+import useState from 'react';
 import Button from '@mui/material/Button';
-import theme from '../Themes/MainTheme'
+// import theme from '../Themes/MainTheme'
 import Container from '@mui/material/Container';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import ToggleButton from '@mui/material/ToggleButton';
 
-function Sayhi() {
-  alert("This is an alert"); 
-}
+// function ToggleState() {
+//   alert("This is an alert"); 
+// }
 
-function ToggleButtonOnOff() {
-  // const [isOff, setIsOff] = useState(true);
-  
+function ToggleButtonOnOff({textName}) {
+  const [alignment, setAlignment] = React.useState('web');
+
+  const handleChange = (event, newAlignment) => {
+    setAlignment(newAlignment);
+  };
+
   return (
-    // <button onClick={() => setIsOff(!isOff)}>
-    //   {isOff ? 'ON' : 'OFFo'}
-    // </button>
-    <Container>
-    <Button variant="text for button" theme>Text</Button>
-    <Button variant="text for button" theme>Text</Button>
-    <Button variant="text for button" theme>Text</Button>
-    <Button variant="text for button" theme>Text</Button>
-    <Button variant="text for button" theme>text</Button>
-    <Button variant="outlined" theme onClick={() => Sayhi()}>Text</Button>
-    </Container>
+    <ToggleButtonGroup
+      color="primary"
+      value={alignment}
+      exclusive
+      onChange={handleChange}
+    >
+      <ToggleButton value='true'>{textName}</ToggleButton>
+    </ToggleButtonGroup>
   );
 }
 
