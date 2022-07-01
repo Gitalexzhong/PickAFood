@@ -4,7 +4,7 @@
 import * as React from 'react';
 // import useState from 'react';
 // import Button from '@mui/material/Button';
-// import theme from '../Themes/MainTheme'
+import theme from '../Themes/MainTheme'
 // import Container from '@mui/material/Container';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import ToggleButton from '@mui/material/ToggleButton';
@@ -22,7 +22,7 @@ function ToggleButtonOnOff({textName}) {
 
   return (
     <ToggleButtonGroup
-      color="primary"
+      color="secondary"
       value={alignment}
       exclusive
       onChange={handleChange}
