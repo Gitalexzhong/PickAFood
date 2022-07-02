@@ -27,7 +27,7 @@ function ToggleButtonOnOff({textName}) {
       exclusive
       onChange={handleChange}
     >
-      <ToggleButton value='true'>{textName}</ToggleButton>
+      <ToggleButton value='false'>{textName}</ToggleButton>
     </ToggleButtonGroup>
   );
 }
