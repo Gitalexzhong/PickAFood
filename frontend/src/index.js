@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <ToggleButtonOnOff textName='text'/>
+    <ToggleButtonOnOff textName='passed text'/>
   </React.StrictMode>
 );
 
