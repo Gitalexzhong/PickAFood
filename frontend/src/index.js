@@ -10,6 +10,7 @@ root.render(
   <React.StrictMode>
     <App />
     <ToggleButtonOnOff textName='passed text multiple'/>
+    <ToggleButtonOnOff textName='passed text multiple'/>
   </React.StrictMode>
 );
 
