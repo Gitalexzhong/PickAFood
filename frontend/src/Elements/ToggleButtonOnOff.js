@@ -40,7 +40,6 @@ function ToggleButtonOnOff({ textName }) {
       <FormGroup>
         <FormControlLabel control={<Switch defaultChecked />} label={textName} />
         <FormControlLabel disabled control={<Switch />} label="Disabled" />
-        <FormControlLabel disabled control={<Switch />} label="Disabled" />
 
       </FormGroup>
     </div>
